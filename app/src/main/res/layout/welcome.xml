@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/layoutDots"
+        android:layout_marginBottom="12dp"
+        android:alpha=".5"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp"
+        android:gravity="end">
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_next" />
+
+        <TextView
+            android:id="@+id/btn_next"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:background="@drawable/createshape"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/font_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="Start"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+       android:id="@+id/btn_skip"
+       android:layout_width="120dp"
+       android:layout_height="36dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="12dp"
+       android:layout_marginTop="12dp"
+       android:layout_marginEnd="12dp"
+       android:layout_marginBottom="12dp"
+       android:fontFamily="@font/font_bold"
+       android:gravity="start|center"
+       android:includeFontPadding="false"
+       android:text="@string/skip"
+       android:textColor="#B4C6D6"
+       android:textSize="24sp" />
+
+</RelativeLayout>

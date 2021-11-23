@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.HelpSupport">
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/help"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_below="@id/img">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="information"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cc"/>
+
+        <TextView
+            android:id="@+id/mo_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="+91 8000853781"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ww"/>
+
+            <TextView
+                android:id="@+id/w_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="+91 8000853781"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ee"/>
+
+        <TextView
+            android:id="@+id/mail_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:text="youngbreedtechnologies@gmail.com"/>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/helpclose"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/edittextshape"
+            android:textColor="#F44336"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text="Advertise"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="wrap_content"
+            android:minHeight="@dimen/_55sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/intro_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_bg_business" />
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/font_bold"
+                android:paddingVertical="20dp"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:background="@drawable/rect_bottom_23dp"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ci_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/reg_logo" />
+
+                <TextView
+                   android:id="@+id/logoLable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Upload Logo"
+                    android:textColor="@color/ColorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_business"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rect_border_23dp"
+                    android:fontFamily="@font/font_bold"
+                    android:hint="Your Business Name"
+                    android:includeFontPadding="false"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black_de"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rect_border_23dp"
+                    android:fontFamily="@font/font_bold"
+                    android:hint="Your Name"
+                    android:includeFontPadding="false"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black_de"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rect_border_23dp"
+                    android:fontFamily="@font/font_bold"
+                    android:hint="Your Business Email (Optional)"
+                    android:includeFontPadding="false"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black_de"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_website"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rect_border_23dp"
+                    android:fontFamily="@font/font_bold"
+                    android:hint="Your Business Website (Optional)"
+                    android:includeFontPadding="false"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black_de"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rect_border_23dp"
+                    android:fontFamily="@font/font_bold"
+                    android:gravity="start|top"
+                    android:hint="Your Business Address (Optional)"
+                    android:includeFontPadding="false"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:paddingStart="15dp"
+                    android:paddingTop="9dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="9dp"
+                    android:textColor="@color/black_de"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_Mobile"
+                        android:layout_width="0dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_border_23dp"
+                        android:fontFamily="@font/font_bold"
+                        android:hint="Your Mobile Num"
+                        android:includeFontPadding="false"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black_de"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/rect_border_23dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:fontFamily="@font/font_bold"
+                            android:includeFontPadding="false"
+                            android:text="+"
+                            android:textColor="@color/blue"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/font_bold"
+                            android:includeFontPadding="false"
+                            android:text="Add Mo. No."
+                            android:textColor="@color/blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvAddSocialButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/rect_border_23dp"
+                        android:fontFamily="@font/font_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="Select Social Media"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvSocialMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btn_Submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/edittextshape"
+                    android:backgroundTint="@color/blue"
+                    android:fontFamily="@font/font_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+</layout>

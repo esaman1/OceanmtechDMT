@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/ivThumb"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_freepaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="@dimen/_5sdp"
+            app:cardUseCompatPadding="true"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/freepaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorAccent"
+                android:padding="@dimen/_3sdp"
+                android:scaleType="fitXY"
+                android:text="Free"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

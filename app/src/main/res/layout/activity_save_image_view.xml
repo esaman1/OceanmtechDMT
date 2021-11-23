@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ViewFullimage"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/viewclose"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:src="@drawable/closeicon" />
+
+    <!--  <RelativeLayout
+          android:id="@+id/viewpage"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/relative"
+          android:layout_above="@id/ad_Layout"
+          android:orientation="vertical"
+          android:visibility="gone">
+
+          <LinearLayout
+              android:id="@+id/SliderDots"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/imageviewpager"
+              android:gravity="center_vertical|center_horizontal"
+              android:orientation="horizontal"
+              android:visibility="gone" />
+
+          <androidx.viewpager.widget.ViewPager
+              android:id="@+id/viewimageviewpager"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/relative"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              app:layout_constraintBottom_toBottomOf="parent" />
+
+
+      </RelativeLayout>
+  -->
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view_w_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/allshare" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone"
+                android:gravity="center"
+                android:textColor="@color/black_de"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/view_f_share"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f_share" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/view_i_share"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/i_share" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/view_icon_share"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/more_share" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text="Advertise"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_55sdp"
+            android:orientation="vertical" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

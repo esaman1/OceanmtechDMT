@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="FontFamily">
+        <item>fonts/font29.ttf</item>
+        <item>fonts/font1.ttf</item>
+        <item>fonts/font2.ttf</item>
+        <item>fonts/font3.ttf</item>
+        <item>fonts/font4.ttf</item>
+        <item>fonts/font5.ttf</item>
+        <item>fonts/font6.ttf</item>
+        <item>fonts/font7.ttf</item>
+        <item>fonts/font8.ttf</item>
+        <item>fonts/font9.ttf</item>
+        <item>fonts/font10.ttf</item>
+        <item>fonts/font11.ttf</item>
+        <item>fonts/font12.ttf</item>
+        <item>fonts/font13.TTF</item>
+        <item>fonts/font14.ttf</item>
+        <item>fonts/font15.ttf</item>
+        <item>fonts/font16.ttf</item>
+        <item>fonts/font17.ttf</item>
+        <item>fonts/font18.ttf</item>
+        <item>fonts/font19.ttf</item>
+        <item>fonts/font20.ttf</item>
+        <item>fonts/font21.ttf</item>
+        <item>fonts/font22.ttf</item>
+        <item>fonts/font23.ttf</item>
+        <item>fonts/font24.ttf</item>
+        <item>fonts/font25.ttf</item>
+        <item>fonts/font26.ttf</item>
+        <item>fonts/font27.TTF</item>
+        <item>fonts/font28.TTF</item>
+        <item>fonts/font30.ttf</item>
+        <item>fonts/font31.ttf</item>
+        <item>fonts/font32.ttf</item>
+        <item>fonts/font33.ttf</item>
+        <item>fonts/font34.ttf</item>
+        <item>fonts/font35.ttf</item>
+        <item>fonts/font36.ttf</item>
+    </array>
+    <array name="FontStyle">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+    </array>
+    <array name="colorArray">
+        <item>#4c3b3e</item>
+        <item>#2b3c44</item>
+        <item>#494949</item>
+        <item>#f1b0db</item>
+        <item>#faedf4</item>
+        <item>#fcf3ec</item>
+        <item>#f1b9c4</item>
+        <item>#ffa621</item>
+        <item>#fdc900</item>
+        <item>#fffefc</item>
+        <item>#fde202</item>
+        <item>#ef8b00</item>
+        <item>#fae452</item>
+        <item>#f0331f</item>
+        <item>#e58c14</item>
+        <item>#7df063</item>
+        <item>#31fa03</item>
+        <item>#ee0c3a</item>
+        <item>#f2541a</item>
+        <item>#f5bdf2</item>
+        <item>#d00333</item>
+        <item>#231ae1</item>
+        <item>#01ffff</item>
+        <item>#00ff4f</item>
+        <item>#fefd00</item>
+        <item>#b1fefe</item>
+        <item>#8affc6</item>
+        <item>#fe3882</item>
+        <item>#33dfeb</item>
+        <item>#6feffa</item>
+        <item>#fdfaff</item>
+        <item>#7c1d5d</item>
+        <item>#ffff07</item>
+        <item>#9d9504</item>
+        <item>#f5b225</item>
+        <item>#ffb3ad</item>
+        <item>#ffb6b7</item>
+        <item>#860981</item>
+    </array>
+    <array name="LifeQuotess">
+        <item>Stop saying I WiSH , Start saying I WILL</item>
+        <item>U r Amazing U r Brave U R Strong</item>
+        <item>Life is the most difficult Exam.</item>
+        <item>Don’t forget to Smile</item>
+        <item>Life is 10% what happens to us and 90% how we react to it.</item>
+        <item>Difficult roads often lead to beautiful destination.</item>
+        <item>No matter how dirty your past is ,your future is still spotless.</item>
+        <item>NO EXPECTATIONS , NO DISAPPOINTMENTS.</item>
+        <item>REMEMBER It s just a bad day, not a bad LIFE.</item>
+        <item>Chris the past, Live for today, Dream for tomorrow.</item>
+        <item>We must let go of the life we have planned, so as to accept the one that is waiting
+            for us.
+        </item>
+        <item>There is only one happiness in this life, to love and be loved.</item>
+        <item>Life is 10% what happens to you and 90% how you react to it.</item>
+        <item>Do not take life too seriously. You will never get out of it alive.</item>
+        <item>Do not dwell in the past, do not dream of the future, concentrate the mind on the
+            present moment.
+        </item>
+    </array>
+    <array name="InspirationQuotes">
+        <item>Strive not to be a success, but rather to be of value.</item>
+        <item>You miss 100% of the shots you don’t take.</item>
+        <item>The best preparation for tomorrow is doing your best today.</item>
+        <item>What we think, we become.</item>
+        <item>Keep your face always toward the sunshine - and shadows will fall behind you.</item>
+        <item>It is during our darkest moments that we must focus to see the light.</item>
+        <item>“One Moment” Would you capture it or just let it slip???</item>
+        <item>"Be Real" - We born to be real,not to be perfect</item>
+        <item>If opportunity doesn t knock, build a door.</item>
+        <item>Change your thoughts and you change your world.</item>
+        <item>Your outlook is more than just what you think of the world. It is what you make of the
+            world, of your life, and you have every reason to make it the best you can imagine.
+        </item>
+        <item>To play is to be the bridge between mastery and mystery, chaos and control, the
+            foolishly brave and the bravely foolish.
+        </item>
+        <item>The bravest are surely those who have the clearest vision of what is before them,
+            glory and danger alike, and yet notwithstanding, go out and meet it.
+        </item>
+        <item>We have always held to the hope, the belief, the conviction that there is a better
+            life, a better world, beyond the horizon.
+        </item>
+        <item>Yes, I am a dreamer. For a dreamer is one who can find his way by moonlight, and see
+            the dawn before the rest of the world.
+        </item>
+    </array>
+
+    <array name="BirthdayQuotessss">
+        <item>Let’s light the candles and celebrate this special day of your life. Happy birthday!
+        </item>
+        <item>You are very special and that’s why you need to float with lots of smiles on your
+            lovely face. Happy birthday!
+        </item>
+        <item>I wish that life brings you a beautiful surprise for every candle on your bday cake!
+        </item>
+        <item>Let yourself do everything that you like most in life, may your Big Day be cheerful
+            and happy!
+        </item>
+        <item>On your birthday friends wish you many things, but I will wish you only two: always
+            and never. Never feel blue and always be happy!
+        </item>
+        <item>May you enjoy your special day to the fullest extent, buddy!</item>
+        <item>My dear friend, may your special day be full of beautiful, magical and unforgettable
+            moments!
+        </item>
+        <item>May the dream that means most to you, start coming true this year. Happy Bday!</item>
+        <item>Today you are you! That is truer than true! There is no one alive who is you-er than
+            you!happy bday!
+        </item>
+        <item>God gave us the gift of life; it is up to us to give ourselves the gift of living
+            well!
+        </item>
+        <item>The secret to staying young is to live honestly, eat slowly, and lie about your age.
+            Happy Birthday
+        </item>
+        <item>The birthday of my life Is come, my love is come to me.Happy Birthday</item>
+        <item>A friend never defends a husband who gets his wife an electric skillet for her
+            birthday.Happy Birthday
+        </item>
+        <item>I wanted to buy a candle holder, but the store didn t have one. So I got a cake.Happy
+            Birthday
+        </item>
+        <item>My warmest wishes and my deepest love on your birthday and forever!</item>
+    </array>
+    <array name="CuteQuotes">
+        <item>I am more concerned about your happiness, because I care about you more.</item>
+        <item>You’re the best thing that happened to me and I mean it really.</item>
+        <item>Time can never change my feelings for you.</item>
+        <item>To make you smile for no reason is the only reason to make you happy.</item>
+        <item>Distance and time don’t matter anymore when you are in my heart.</item>
+        <item>Life is a party, but without you there is no reason to celebrate.</item>
+        <item>Believe in small things that matter and that can make big differences.</item>
+        <item>Never regret your choices because even bad experiences teach you a lot.</item>
+        <item>Be what you want to be, not what others want to see.</item>
+        <item>You’re my angel that gives me wings to fly high.</item>
+        <item>Cute is when a person s personality shines through their looks. Like in the way they
+            walk, every time you see them you just want to run up and hug them.
+        </item>
+        <item>I myself never feel that I m sexy. If people call me cute, I am happier.</item>
+        <item>It s kind of fun being the cute, little one. In fact, I m finding it hard to grow out
+            of that.
+        </item>
+        <item>Everything looks cute when it s small.</item>
+        <item>She s like the rarest of jewels, too precious to be worn, and too valuable to tarnish.
+        </item>
+    </array>
+    <array name="FriendshipQuotesss">
+        <item>The greatest gift of life is friendship, and I have received it.</item>
+        <item>Friendship is always a sweet responsibility, never an opportunity.</item>
+        <item>A friend is what the heart needs all the time.</item>
+        <item>A single rose can be my garden... a single friend, my world.</item>
+        <item>One loyal friend is worth ten thousand relatives.</item>
+        <item>A true friend never gets in your way unless you happen to be going down.</item>
+        <item>A friend knows the song in my heart and sings it to me when my memory fails.</item>
+        <item>There is nothing better than a friend, unless it is a friend with chocolate.</item>
+        <item>Walking with a friend in the dark is better than walking alone in the light.</item>
+        <item>Man’s best support is a very dear friend.</item>
+        <item>No friendship is an accident.</item>
+        <item>A good friend is like a four leaf clover; hard to find and lucky to have.</item>
+        <item>I would rather walk with a friend in the dark, than alone in the light.</item>
+        <item>Friendship marks a life even more deeply than love. Love risks degenerating into
+            obsession, friendship is never anything but sharing.
+        </item>
+        <item>Sitting silently beside a friend who is hurting may be the best gift we can give.
+        </item>
+    </array>
+    <array name="HappyQuotes">
+        <item>Happy mind Happy Life.</item>
+        <item>The most important thing is to enjoy your life - to be happy - it s all that
+            matters.
+        </item>
+        <item>Be happy for this moment. This moment is your life.</item>
+        <item>The purpose of our lives is to be happy.</item>
+        <item>All I ask is the chance to prove that money can t make me happy.</item>
+        <item>It is not how much we have, but how much we enjoy, that makes happiness.</item>
+        <item>There is only one happiness in this life, to love and be loved.</item>
+        <item>If you want to be happy, be.</item>
+        <item>Happiness is not something ready made. It comes from your own actions.</item>
+        <item>Happiness depends upon ourselves.</item>
+        <item>The richer you get, the more expensive happiness becomes.</item>
+        <item>I just find myself happy with the simple things. Appreciating the blessings God gave
+            me.
+        </item>
+        <item>If people are talking behind your back, be happy that you are the one in front.</item>
+        <item>I didn t find out what happiness means until I got married... and then it was too
+            late.
+        </item>
+        <item>Everyone wants your happiness. Don t let them take it!!</item>
+    </array>
+    <array name="LoveQuotesss">
+        <item>I look at you and see the rest of my life in front of my eyes.</item>
+        <item>All, everything that I understand, I only understand because I love.</item>
+        <item>I m much more me when I m with you.</item>
+        <item>When love is not madness it is not love.</item>
+        <item>Where there is love there is life.</item>
+        <item>Let us always meet each other with smile, for the smile is the beginning of love.
+        </item>
+        <item>To love and be loved is to feel the sun from both sides.</item>
+        <item>I feel great lucky everyday when i’m with you.</item>
+        <item>Three simple words .. i love you . say it, mean it, and live by it.</item>
+        <item>I fell in love with you. Not for how you look, just for who you are.</item>
+        <item>You are the source of my joy, the center of my world and the whole of my heart.</item>
+        <item>When I tell you I love you, I am not saying it out of habit, I am reminding you that
+            you are my life.
+        </item>
+        <item>I don’t need paradise because I found you. I don’t need dreams because I already have
+            you.
+        </item>
+        <item>You are the last thought in my mind before I drift off to sleep and the first thought
+            when I wake up each morning.
+        </item>
+        <item>Everywhere I look I am reminded of your love. You are my world.</item>
+    </array>
+    <array name="SadQuotes">
+        <item>The word  happiness  would lose its meaning if it were not balanced by sadness.</item>
+        <item>We never taste a perfect joy; our happiest successes are mixed with sadness.</item>
+        <item>Crying is cleansing. There s a reason for tears, happiness or sadness.</item>
+        <item>Sadness is but a wall between two gardens.</item>
+        <item>I smile not for that I am happy, but sometimes I smile to hide sadness.</item>
+        <item>Pain is the only thing that’s telling me I’m still alive.</item>
+        <item>People walk away easily but they leave their memories with us forever….</item>
+        <item>Temporary happiness isn’t worth long term pain…</item>
+        <item>Love is the person you think about during the sad songs…</item>
+        <item>No one will ever understand how much it hurts.</item>
+        <item>There’s death all around us. Everywhere we look. 1.8 people kill themselves every
+            second. We just don’t pay attention. Until we do.
+        </item>
+        <item>As the light begins to intensify, so does my misery, and I wonder how it is possible
+            to hurt so much when nothing is wrong.
+        </item>
+        <item>But grief makes a monster out of us sometimes . . . and sometimes you say and do
+            things to the people you love that you can’t forgive yourself for.
+        </item>
+        <item>A lot of you cared, just not enough.</item>
+        <item>Breathing is hard. When you cry so much, it makes you realize that breathing is
+            hard.
+        </item>
+    </array>
+    <array name="SmileQuotes">
+        <item>A warm smile is the universal language of kindness.</item>
+        <item>We shall never know all the good that a simple smile can do.</item>
+        <item>A smile is happiness you ll find right under your nose.</item>
+        <item>Always keep your smile. That s how I explain my long life.</item>
+        <item>If the world s a veil of tears, Smile till rainbows span it.</item>
+        <item>Look back, and smile on perils past.</item>
+        <item>Colors are the smiles of nature.</item>
+        <item>Beautiful Smile Quotes that will want you to smile all day.</item>
+        <item>If you smile when no one else is around, you really mean it.</item>
+        <item>I add a smile to everything I wear and that has worked great for me.</item>
+        <item>Everytime you smile at someone, it is an action of love, a gift to that person, a
+            beautiful thing.
+        </item>
+        <item>Don’t cry for a man who’s left you; the next one may fall for your smile.</item>
+        <item>I love those who can smile in trouble, who can gather strength from distress, and grow
+            brave by reflection.
+        </item>
+        <item>When someone is in a bad mood, look them in the eyes and tell them to smile. They will
+            always smile and cheer up a bit.
+        </item>
+        <item>You make me smile like no one did before.</item>
+    </array>
+    <array name="SuccessQuotesss">
+        <item>Do not be embarrassed by your failures, learn from them and start again.</item>
+        <item>Success is simple. Do what’s right, the right way, at the right time.</item>
+        <item>Action is the foundational key to all success.</item>
+        <item>Success is going from failure to failure without losing enthusiasm.</item>
+        <item>Things may come to those who wait, but only the things left by those who hustle.
+        </item>
+        <item>Life isn’t about finding yourself. Life is about creating yourself.Dats Success.
+        </item>
+        <item>To succeed in life, you need two things: ignorance and confidence.</item>
+        <item>Judge your success by what you had to give up in order to get it.</item>
+        <item>Your work is discover your world and then with all your heart give yourself to
+            it.success yours.
+        </item>
+        <item>Success usually comes to those who are too busy to be looking for it.</item>
+        <item>Keep your face always toward the sunshine and shadows will fall behind you.</item>
+        <item>Let us make our future now, and let us make our dreams tomorrow’s reality.</item>
+        <item>All you need is the plan, the road map, and the courage to press on to your
+            destination.
+        </item>
+        <item>Try to be a rainbow in someone’s cloud.</item>
+        <item>Light tomorrow with today.</item>
+    </array>
+
+
+    <array name="AnniversaryQuotes">
+        <item>
+             Happy Anniversary to my dear love and very best friend.
+        </item>
+        <item>
+            True love is spending one day getting married and the rest of your life feeling glad you
+            did. Happy Anniversary.
+        </item>
+        <item>
+            Happy anniversary. Sweet heart, I love you more than word can say.
+        </item>
+        <item>
+            You both are a wonderful example of love, relation and family. Happy anniversary.
+        </item>
+        <item>
+            May you live as long as you wish and love as long as you live.
+        </item>
+        <item>
+            There is no more lovely, friendly and charming relationship, communion or company than a
+            good marriage.
+        </item>
+        <item>
+            A lot of good love can happen in ten years, Happy Anniversary..
+        </item>
+        <item>
+            That there s no more important decision in life than who you marry.happy Anniversary.
+        </item>
+        <item>
+            Marriage is the most natural state of man, and... the state in which you will find solid
+            happiness.
+        </item>
+        <item>
+            In the Waltz of Life, you have proved to be the perfect dancing partners for each other
+            and forever. Happy anniversary.
+        </item>
+        <item>
+            The fact that you dont behave like a typical husband-wife makes your marriage perfect.
+            Happy anniversary.
+        </item>
+        <item>
+            A real relationship is when destinies align, souls connect and hearts beat for each
+            other, forever and ever just like yours.Happy anniversary.
+        </item>
+        <item>
+            Relationships are not about give and take, they re about share and care. Happy
+            anniversary.
+        </item>
+        <item>
+            The echo of your love and the sound of the sea have a few things in common they are both
+            constant, soulful and eternal. Happy anniversary.
+        </item>
+        <item>
+            Real relationships are when you dont have to pretend to be someone else, just to be
+            liked for being someone you re not. Happy anniversary.
+        </item>
+        <item>
+            True love is spending one day getting married. and the rest of your life feeling glad
+            you did. Happy Anniversary.
+        </item>
+        <item>
+            If I had my life to live over again next time I would find you sooner so that I could
+            love you longer. Happy Anniversary to us.
+        </item>
+        <item>
+            Since I wrote to you last we have got our chapel beautifully lighted with gas and have
+            had our anniversary.
+        </item>
+        <item>
+            I wish there was a word more than love itself to convey what I feel for you, happy
+            anniversary.
+        </item>
+        <item>
+            Real love stories never have endings, happy anniversary.
+        </item>
+    </array>
+
+
+    <array name="AtittudeQuotes">
+        <item>
+            An attitude is an inward thought that wiggles its way out.
+        </item>
+        <item>
+            I am not cranky. I just have a violent reaction to stupid people.
+        </item>
+        <item>
+            There can be no positive result through negative attitude. Think positive. Live
+            positive.
+        </item>
+        <item>
+            People may hear your words, but they feel your attitude.
+        </item>
+        <item>
+            For success, attitude is equally as important as ability.
+        </item>
+        <item>
+            Weakness of attitude becomes weakness of character.
+        </item>
+        <item>
+            I m not changed it s just I grew up and you should try too.
+        </item>
+        <item>
+            I never insult people I only tell them what they are.
+        </item>
+        <item>
+            My attitude based on how you treat me.
+        </item>
+        <item>
+            I am poor. I can t pay attention in class room.
+        </item>
+        <item>
+            Excuse me. I found something under my shoes oh its your Attitude.
+        </item>
+        <item>
+            Please dont get confused between my personality and my attitude.
+        </item>
+        <item>
+            My personality is who I am and my attitude depends on who you are!
+        </item>
+        <item>Im Not Special , Im Just Limited Edition.</item>
+        <item>
+            Life will give you exactly what you need, not what you want.
+        </item>
+        <item>
+            I dont have an attitude, I have standards for the people who are supposed to be my
+            friends.
+        </item>
+        <item>
+            Our attitude towards others determines their attitude towards us.
+        </item>
+        <item>
+            Cock your hat - angles are attitudes.
+        </item>
+        <item>
+            You know what s funny to me? Attitude.
+        </item>
+        <item>
+            When you are thwarted, it is your own attitude that is out of order.
+        </item>
+    </array>
+
+
+    <array name="BirthdayQuotes">
+        <item>
+            Today you are you! That is truer than true! There is no one alive who is you er than
+            you.
+        </item>
+        <item>
+            God gave us the gift of life; it is up to us to give ourselves the gift of living well.
+        </item>
+        <item>
+            Don t just count your years, make your years count, happy birthday..
+        </item>
+        <item>
+            The way I see it, you should live everyday like its your birthday.
+        </item>
+        <item>
+            Our birthdays are feathers in the broad wing of time.
+        </item>
+        <item>My life is better with every year of living it.</item>
+        <item>
+            Every year on your birthday, you get a chance to start new.
+        </item>
+        <item>Let them eat cake, happy birthday....</item>
+        <item>
+            Today is a perfect day to tell that you are nothing less than one of my family member! I
+            Wish you a very warm and happy birthday.
+        </item>
+        <item>
+            happy b day bro Thanks for being my brother. I look so much better in all those family
+            photos with you there.
+        </item>
+        <item>
+            Happy Birthday, to my sweet brother. May God bless you with all his warmth and care. May
+            your birthday bring loads of joy and fun to your world
+        </item>
+        <item>
+            You are the best sister that I have ever had. Even in my imagination. Happy Birthday to
+            my lovely sis.
+        </item>
+        <item>
+            Happy Birthday, dear husband. May you always fly high in life and touch all your dreams.
+            With lots of love, your wife.
+        </item>
+        <item>
+            This is just to let you know that you are the one I was waiting for! Happy Birthday My
+            Love.
+        </item>
+        <item>
+            Happy birthday to the love of my life (my lovely wife). I can t wait to celebrate
+            tonight when we blow out the candles and turn out the lights.
+        </item>
+        <item>
+            My dear wife I fall in love again every time that I see you. Hope you are happy with me.
+            Happy Birthday.
+        </item>
+        <item>
+            Kids are supposed to make their parents proud but I am proud to tell people that you are
+            my Mom. Happy Birthday Mom.
+        </item>
+        <item>
+            Your soul is pure, your heart is priceless, and your wisdom is astounding. Happy
+            birthday, Dad.
+        </item>
+        <item>
+            Happy birthday to my best friend the one who laughs at my jokes and cries with me during
+            my heartaches. I will always be here for you.
+        </item>
+        <item>
+            You have been there for me no matter what. I am so excited to share your special day
+            with you. Your birthday is going to be truly special.
+        </item>
+    </array>
+
+
+    <array name="DreamsQuotes">
+        <item>
+            A dream doesn t become reality through magic; it takes sweat, determination and hard
+            work.
+        </item>
+        <item>
+            All our dreams can come true, if we have the courage to pursue them.
+        </item>
+        <item>
+            You have to dream before your dreams can come true.
+        </item>
+        <item>
+            Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly.
+        </item>
+        <item>
+            Reality is wrong. Dreams are for real.
+        </item>
+        <item>
+            I dream of painting and then I paint my dream.
+        </item>
+        <item>
+            Nothing happens unless first we dream.
+        </item>
+        <item>
+            Dreaming of a tomorrow, which tomorrow, will be as distant then as this today.
+        </item>
+        <item>
+            Man is a genius when he is dreaming.
+        </item>
+        <item>
+            A daydream is an evasion.
+        </item>
+        <item>
+            Dreams must be heeded and accepted. For a great many of them come true.
+        </item>
+        <item>
+            Our dreams drench us in sense, and sense steeps us again in dreams.
+        </item>
+        <item>
+            Dream and give yourself permission to envision a You that you choose to be.
+        </item>
+        <item>
+            Each man should frame life so that at some future hour fact and his dreaming meet.
+        </item>
+        <item>
+            One of the most adventurous things left us is to go to bed. For no one can lay a hand on
+            our dreams.
+        </item>
+        <item>
+            The future belongs to those who believe in the beauty of their dreams.
+        </item>
+        <item>
+            Dreams are the touchstones of our characters.
+        </item>
+        <item>
+            Dreams have but one owner at a time. That is why dreamers are lonely.
+        </item>
+        <item>
+            Hold fast to dreams For when dreams go Life is a barren field Frozen with snow.
+        </item>
+        <item>
+            Everybody s a dreamer.
+        </item>
+        <item>
+            We are the makers of dreams, the dreamers of dreams.
+        </item>
+    </array>
+
+    <array name="EducationQuotes">
+        <item>
+            Education is the most powerful weapon which you can use to change the world.
+        </item>
+        <item>
+            Education is not preparation for life; education is life itself.
+        </item>
+        <item>
+            Education is the key to unlock the golden door of freedom.
+        </item>
+        <item>
+            Education is the movement from darkness to light.
+        </item>
+        <item>
+            An investment in knowledge pays the best interest.
+        </item>
+        <item>
+            Develop a passion for learning. If you do, you will never cease to grow.
+        </item>
+        <item>
+            The goal of education is the advancement of knowledge and the dissemination of truth.
+        </item>
+        <item>
+            The world is a book and those who do not travel read only one page.
+        </item>
+        <item>
+            The past has no power over the present moment.
+        </item>
+        <item>
+            Intelligence plus character-that is the goal of true education.
+        </item>
+        <item>
+            Marriage can wait, education cannot.
+        </item>
+        <item>
+            Education is the kindling of a flame, not the filling of a vessel.
+        </item>
+        <item>
+            Self-education is, I firmly believe, the only kind of education there is.
+        </item>
+        <item>
+            To me education is a leading out of what is already there in the pupil s soul.
+        </item>
+        <item>
+            In learning you will teach, and in teaching you will learn.
+        </item>
+        <item>
+            Education is not the filling of a pail, but the lighting of a fire.
+        </item>
+        <item>
+            Formal education will make you a living; self-education will make you a fortune.
+        </item>
+        <item>
+            The only thing that interferes with my learning is my education.
+        </item>
+        <item>
+            Books, the children of the brain.
+        </item>
+        <item>
+            Education is a progressive discovery of our own ignorance.
+        </item>
+    </array>
+
+    <array name="FriendshipQuotes">
+        <item>
+            Friendship marks a life even more deeply than love.
+        </item>
+        <item>
+            The great thing about new friends is that they bring new energy to your soul.
+        </item>
+        <item>
+            A sweet friendship refreshes the soul.
+        </item>
+        <item>
+            There s not a word yet, for old friends who ve just met.
+        </item>
+        <item>
+            When a woman becomes her own best friend, life is easier.
+        </item>
+        <item>
+            A real friend is one who walks in when the rest of the world walks out.
+        </item>
+        <item>
+            True friendship comes when the silence between two people is comfortable.
+        </item>
+        <item>
+            A single rose can be my garden a single friend, my world.
+        </item>
+        <item>
+            One s friends are that part of the human race with which one can be human.
+        </item>
+        <item>
+            No person is your friend who demands your silence, or denies your right to grow.
+        </item>
+        <item>
+            If you make friends with yourself you will never be alone.
+        </item>
+        <item>
+            It is not so much our friends help that helps us, as the confidence of their help.
+        </item>
+        <item>
+            To the world you may be just one person, but to one person you may be the world.
+        </item>
+        <item>
+            True friends are like diamonds bright, beautiful, valuable, and always in style.
+        </item>
+        <item>
+            A true friend is someone who sees the pain in your eyes while everyone else believes
+            your smile.
+        </item>
+        <item>
+            Friends are people who know you really well and like you anyway.
+        </item>
+        <item>
+            A true friend, sees the first tear, catches the second and stops the third.
+        </item>
+        <item>
+            Sometimes my best friend understands me, better than I understand myself.
+        </item>
+        <item>
+            Being Honest may not get you lot of friends but still always get you the right ones.
+        </item>
+        <item>
+            To my friends : Thanks for being there for me. I m grateful for you all.
+        </item>
+    </array>
+
+
+    <array name="GeniusQuotes">
+        <item>
+            I am not random, you just can’t think as fast as me.
+        </item>
+        <item>
+            Use your eyes to see the possibilities not the problems.
+        </item>
+        <item>
+            Genius is only a superior power of seeing.
+        </item>
+        <item>
+            Genius always finds itself a century too early.
+        </item>
+        <item>
+            The difference between stupidity and genius is that genius has its limits.
+        </item>
+        <item>
+            If you can’t explain it simply, you don’t understand it well enough.
+        </item>
+        <item>
+            Trust me. I’m a GENIUS.
+        </item>
+        <item>
+            Man is a genius when he is dreaming.
+        </item>
+        <item>
+            Genius is eternal patience.
+        </item>
+        <item>
+            Genius is 1% inspiration and 99% perspiration.
+        </item>
+        <item>
+            The distance between insanity and genius is measured only by success.
+        </item>
+        <item>
+            Don’t be the same, be better.
+        </item>
+        <item>
+            There was never a genius without tincture of madness.
+        </item>
+        <item>
+            genius is talent set on fire by courage.
+        </item>
+        <item>
+            I am a misunderstood genius. "What’s misunderstood"? Nobody thinks I’m a genius.
+        </item>
+    </array>
+
+    <array name="LifeQuotes">
+        <item>
+            Life is really simple, but we insist on making it complicated.
+        </item>
+        <item>
+            Life isn t about finding yourself. Life is about creating yourself.
+        </item>
+        <item>
+            We do not remember days, we remember moments.
+        </item>
+        <item>
+            Life is not a problem to be solved, but a reality to be experienced.
+        </item>
+        <item>
+            Life s most persistent and urgent question is,  What are you doing for others ?
+        </item>
+        <item>
+            The good life is one inspired by love and guided by knowledge.
+        </item>
+        <item>
+            One way to get the most out of life is to look upon it as an adventure.
+        </item>
+        <item>
+            Life is a tragedy when seen in close-up, but a comedy in long-shot.
+        </item>
+        <item>
+            You only live once, but if you do it right, once is enough.
+        </item>
+        <item>
+            To live is the rarest thing in the world. Most people exist, that is all.
+        </item>
+        <item>
+            Good friends, good books, and a sleepy conscience: this is the ideal life.
+        </item>
+        <item>
+            Sometimes the questions are complicated and the answers are simple.
+        </item>
+        <item>
+            If you dont know where you re going, any road ll take you there.
+        </item>
+        <item>
+            This life is hard, but it is harder if you are stupid.
+        </item>
+        <item>
+            Death ends a life, not a relationship.
+        </item>
+        <item>
+            Where there is love there is life.
+        </item>
+        <item>
+            All the world is made of faith, and trust, and pixie dust.
+        </item>
+        <item>
+            May you live every day of your life.
+        </item>
+        <item>
+            Open your eyes, look within. Are you satisfied with the life you re living?
+        </item>
+        <item>
+            With renunciation life begins.
+        </item>
+    </array>
+
+    <array name="LoveQuotes">
+    <item>
+        God is keeping me alive but you are keeping me in love.
+    </item>
+
+    <item>
+        I dont need paradise because I found you.
+        I dont need dreams because I already have you.
+    </item>
+
+    <item>
+        Everywhere I look I am reminded of your love. You are my world.
+    </item>
+    <item>
+        If I know what love is, it is because of you.
+    </item>
+    <item>
+        I can t stop thinking about you, today  tomorrow always.
+    </item>
+    <item>
+        When I look into your eyes I see the mirror of my soul.
+    </item>
+    <item>
+        I love you every step of the way.
+    </item>
+    <item>
+        Together with you is my favorite place to be.
+    </item>
+    <item>
+        I still fall in love with you every day!
+    </item>
+    <item>
+        Your beauty leaves me speechless.
+    </item>
+    <item>
+        And when I open my eyes in the morning, I thirst for your touch.
+    </item>
+    <item>
+        My heart is perfect because you are in it.
+    </item>
+    <item>
+        My heart made it s choice, and it chose you.
+    </item>
+    <item>
+        When it comes to love do not ever settle for anything less than magical.
+    </item>
+    <item>
+        I write because it is the only way i can reach you.
+    </item>
+    <item>
+        There is no cosmetic to gain a beauty like yours.
+    </item>
+    <item>
+        I am here, I will always be here. Watching you, loving you.
+    </item>
+    <item>
+        When it comes to love, Princess, rules blur, and traditions fade.
+    </item>
+    <item>
+        Being present to yourself in love and with kindness is the ultimate gift.
+    </item>
+    <item>
+        Every moment spent with you is like a beautiful dream come true. I love you.
+    </item>
+    </array>
+
+
+        <array name="ManQuotes">
+        <item>
+            The real man smiles in trouble, gathers strength from distress, and grows brave by reflection.
+        </item>
+        <item>
+            I live, like every real man, in my work.
+        </item>
+        <item>
+            Nothing great will ever be achieved without great men, and men are great only if they are determined to be so.
+        </item>
+        <item>
+            Men are born to succeed, not to fail.
+        </item>
+        <item>
+            Honor is simply the morality of superior men.
+        </item>
+        <item>
+            A woman simply is, but a man must become.
+        </item>
+        <item>
+            Men, even when alone, lighten their labors by song, however rude it may be.
+        </item>
+        <item>
+            A real man won’t date the most beautiful girl in the world - He’ll date the girl that makes his world beautiful.
+        </item>
+        <item>
+            A great man isn’t afraid to do what is right , no matter what.
+        </item>
+        <item>
+            The mark of real man , is a man who can allow himself to fall deeply in love with a woman.
+        </item>
+        <item>
+            Wise man speaks only of what they know.
+        </item>
+        <item>
+            Try not become a man of success, Rather become a man of value.
+        </item>
+        <item>
+            Man needs his difficulties because they are necessary to enjoy success.
+        </item>
+        <item>
+            No man is rich enough to buy his past.
+        </item>
+        <item>
+            Remember , no man is a failure , who has friends.
+        </item>
+        </array>
+
+    <array name="MissuQuotes">
+    <item>
+        I only miss you when I m breathing.
+    </item>
+    <item>
+        If I could plant a flower for every time I miss you, I could walk through my garden forever.
+    </item>
+    <item>
+        My eyes await your return. Please come back soon. I miss you.
+    </item>
+    <item>
+        Sometimes a simple I miss you changes everything.
+    </item>
+    <item>
+        I miss you when something really good happens, because you are the one I want to share it with.
+    </item>
+    <item>
+        I think I ll miss you forever like the stars miss the sun in the morning skies.
+    </item>
+    <item>
+        You may be out of my sight but never out of my mind. I Miss You.
+    </item>
+    <item>
+        If I had a single flower for every time I think about you, I could walk forever in my garden.
+    </item>
+    <item>
+        If ever I see you smile and know that it is not for me, that is when I will miss you the most.
+    </item>
+    <item>
+        I pretend to ignore you, but I really just miss you.
+    </item>
+    <item>
+        Time goes by a lot slower when you miss the one you love.
+    </item>
+    <item>
+        Miss you in all paths of my life.
+    </item>
+    <item>
+        I did three things today; miss you, miss you, and miss you.
+    </item>
+    <item>
+        I dropped a tear in the ocean. The day you find it is the day I will stop missing you.
+    </item>
+    <item>
+        You may be out of sight but never out of mind, i miss you.
+    </item>
+    <item>
+        If you think missing me is hard, you should try missing you.
+    </item>
+    <item>
+        A day without you is like a day without sunshine I miss you.
+    </item>
+    <item>
+        I miss your love I miss your touch, But I m feeling you everyday.
+    </item>
+    <item>
+        I m a fish out of water without you....I miss you.
+    </item>
+    <item>
+        Is your heart still mine? I wanna cry sometimes. I miss you.
+    </item>
+    </array>
+
+    <array name="MoneyQuotes">
+    <item>
+        A little thought and a little kindness are often worth more than a great deal of money.
+    </item>
+    <item>
+        A wise man should have money in his head, but not in his heart.
+    </item>
+    <item>
+        The lack of money is the root of all evil.
+    </item>
+    <item>
+        All I ask is the chance to prove that money can t make me happy.
+    </item>
+    <item>
+        A billion here, a billion there, and pretty soon you re talking about real money.
+    </item>
+    <item>
+        If I have enough money to eat I m good.
+    </item>
+    <item>
+        Where large sums of money are concerned, it is advisable to trust nobody.
+    </item>
+    <item>
+        If you can count your money, you dont have a billion dollars.
+    </item>
+    <item>
+        I am happy to make money. I want to make more money, make more music.
+    </item>
+    <item>
+        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+    </item>
+    <item>
+        I dont think business news is just for old white men with money.
+    </item>
+    <item>
+        A wise person should have money in their head, but not in their heart.
+    </item>
+    <item>
+        Money is a terrible master but an excellent servant.
+    </item>
+    <item>
+        The real measure of your wealth is how much you would be worth if you lost all your money.
+    </item>
+    <item>
+        Money is a terrible master but an excellent servant.
+    </item>
+    <item>
+        Wealth is the ability to fully experience life.
+    </item>
+    <item>
+        Never spend your money before you have it.
+    </item>
+    <item>
+        The best thing money can buy is financial freedom.
+    </item>
+    <item>
+        Money is usually attracted, not pursued.
+    </item>
+    <item>
+        If you would be wealthy, think of saving as well as getting.
+    </item>
+    </array>
+
+        <array name="SayingsQuotes">
+        <item>
+            Have  the courage to follow your heart and intuition . They somehow know what you truly want to become.- Steve Jobs
+        </item>
+        <item>
+            I destroy my enemy when I make him my friend. - Abraham Lincoln
+        </item>
+        <item>
+            First They ignore you , then they laugh at you , then they fight with you , then you win. - Mahatma Gandhi
+        </item>
+        <item>
+            Education is the most powerful weapon which you can use to change the world. - Nelson Mandela
+        </item>
+        <item>
+            Knowing is not enough , we must apply. Willing is not enough , we must do. - Bruce Lee
+        </item>
+        <item>
+            Throughout life people will make you mad , disrespect you and treat you bad . Let God deal with the things they do , cause hate in your heart will consume you too.. - Will Smith
+        </item>
+        <item>
+            An eye for an eye only ends up making the whole world blind. -  Mahatma Gandhi
+        </item>
+        <item>
+            Everything should be made as simple as possible , but not simpler.- Albert Einstein
+        </item>
+        <item>
+            Be less curious about people and more curious about ideas. - Marie Curie
+        </item>
+        <item>
+            If you born poor it’s not your mistake . But if you die poor it s your mistake. - Bill Gates
+        </item>
+        <item>
+            If you judge people then you have no time to love them. - Mother Teresa
+        </item>
+        <item>
+            People may hear your words, but they feel your attitude. - John C.Maxwell
+        </item>
+        <item>
+            I have many problems in my life but my lips don’t know that. They always smiles. - Charlie Chaplin
+        </item>
+        <item>
+            If you want to live a happy life , tie it to a goal. Not to people or things. - Albert Einstein
+        </item>
+        <item>
+            I didn’t fail the test , I just found 100 ways to do it wrong. - Benjamin Franklin
+        </item>
+        <item>
+            Many of life’s failures are people who did not realize how close they were to success when they gave up. - Thomas Edison
+        </item>
+        <item>
+            Remember that the happiest people are not those getting more but those giving more.-H.Jackson Brown Jr.
+        </item>
+        <item>
+            Creativity comes from a conflict of ideas. - Donatello Versace
+        </item>
+        <item>
+            Well done is better that well said . -  Benjamin Franklin
+        </item>
+        <item>
+            Success is a lousy teacher. It seduces smart people into thinking they can’t lose. - Bill Gates
+        </item>
+        </array>
+
+        <array name="SuccessQuotes">
+        <item>
+            The starting point of all achievement is desire.
+        </item>
+        <item>
+            Success is simple. Do what s right, the right way, at the right time.
+        </item>
+        <item>
+            Success is not final, failure is not fatal: it is the courage to continue that counts.
+        </item>
+        <item>
+            Success is not the key to happiness. Happiness is the key to success.
+        </item>
+        <item>
+            Action is the foundational key to all success.
+        </item>
+        <item>
+            If you love what you are doing, you will be successful.
+        </item>
+        <item>
+            However difficult life may seem, there is always something you can do and succeed at.
+        </item>
+        <item>
+            Success is nothing more than a few simple disciplines, practiced every day.
+        </item>
+        <item>
+            Success is how high you bounce when you hit bottom.
+        </item>
+        <item>
+            All you need in this life is ignorance and confidence, and then success is sure.
+        </item>
+        <item>
+            The successful man will profit from his mistakes and try again in a different way.
+        </item>
+        <item>
+            Success is achieved and maintained by those who try and keep trying.
+        </item>
+        <item>
+            For success, attitude is equally as important as ability.
+        </item>
+        <item>
+            Before anything else, preparation is the key to success.
+        </item>
+        <item>
+            Success is focusing the full power of all you are on what you have a burning desire to achieve.
+        </item>
+        <item>
+            Success is the sum of small efforts, repeated day-in and day-out.
+        </item>
+        <item>
+            Strive not to be a success, but rather to be of value.
+        </item>
+        <item>
+            The secret of my success is a two word answer: Know people.
+        </item>
+        <item>
+            Eighty percent of success is showing up.
+        </item>
+        <item>
+            Success is counted sweetest by those who never succeed.
+        </item>
+        <item>
+            The ladder of success is best climbed by stepping on the rungs of opportunity.
+        </item>
+        </array>
+
+    <array name="WisdomQuotes">
+    <item>
+        Knowledge speaks but Wisdom listens.
+    </item>
+    <item>
+        Be wise enough to walk away from the nonsense around you.
+    </item>
+    <item>
+        Wisdom is a supreme part of happiness.
+    </item>
+    <item>
+        We can’t solve our problems with the same level of thinking that created  them.
+    </item>
+    <item>
+        Don’t let anyone ever dull your sparkle.
+    </item>
+    <item>
+        Patience is the companion of wisdom.
+    </item>
+    <item>
+        When someone has offended me , I try to raise my soul so high that the offense cannot reach it.
+    </item>
+    <item>
+        Knowledge minus Ego equals Wisdom.
+    </item>
+    <item>
+        Wisdom is the reward of experience and should be shared.
+    </item>
+    <item>
+        Happiness depends upon ourselves.
+    </item>
+    <item>
+        Never give someone the opportunity to waste your time twice.
+    </item>
+    <item>
+        Wisdom is the ability to learn from change.
+    </item>
+    <item>
+        Wisdom comes from experience . Experience is often a result of lack of wisdom.
+    </item>
+    <item>
+        Silence is the sleep that nourishes wisdom.
+    </item>
+    <item>
+        Crying is not a sign of weakness. It’s a sign of having tried too hard to be strong for too long.
+    </item>
+    <item>
+        Knowing yourself is the beginning of all wisdom.
+    </item>
+    <item>
+        Be the change you wish to see in the world…
+    </item>
+    <item>
+        Knowledge is knowing a tomato is a fruit . Wisdom is not putting it into a fruit salad.
+    </item>
+    <item>
+        Efforts and courage are not enough without purpose and direction.
+    </item>
+    <item>
+        Stop hating yourself for everything you are not. Start loving yourself for everything that you are.
+    </item>
+    </array>
+    <array name="WomanQuotes">
+    <item>
+        A WOMAN brought you into this world , so you have no rights to disrespect one.
+    </item>
+    <item>
+        Don t be a woman that needs a man ... Be a woman a man needs!
+    </item>
+    <item>
+        I am not a princess, i m a queen. I can handle things on my own.
+    </item>
+    <item>
+        I am not like most girls that s where you made your first mistake.
+    </item>
+    <item>
+        Every woman is Beautiful, It just takes the right man to see it.
+    </item>
+    <item>
+        I ll never be the girl you want me to be.. Because I am a woman I need to be..
+    </item>
+    <item>
+        Confidence is ornament.. Wear it daily.</item>
+    <item>
+        I dont need a relationship to define who I am. I ll be fine..I am a strong woman.
+    </item>
+    <item>
+        Women are made to be loved, not to be  Understood.
+    </item>
+    <item>
+        True beauty in a woman is reflected in her soul.
+    </item>
+    <item>
+        Always be a first-rate version of yourself, Instead of a second-rate version of somebody else.
+    </item>
+    <item>
+        Classy woman never lose their DIGNITY.
+    </item>
+    <item>
+        For most of history , Anonymous was a woman.
+    </item>
+    <item>
+        A charming woman doesn t follow the crowd. She is herself.
+    </item>
+    <item>
+        Happy girls are the Prettiest.
+    </item>
+    <item>
+        Sweet as Sugar. Hard as Ice. Hurt me once , I ll kill you Twice.
+    </item>
+    <item>
+        There is no force equal to a woman determined to rise.
+    </item>
+    <item>
+        Act like a LADY , Think like a BOSS.
+    </item>
+    <item>
+        Be like a diamond , precious and rare , not like a stone found everywhere...
+    </item>
+    <item>
+        A girl should be like a butterfly . Pretty to see , hard to catch.
+    </item>
+    </array>
+</resources>

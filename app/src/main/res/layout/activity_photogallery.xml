@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#4D000000">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:backgroundTint="@android:color/white"
+                android:tint="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MY Quotes"
+                android:layout_marginEnd="35dp"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/noimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <GridView
+            android:id="@+id/PhoneImageGrid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:layout_below="@id/toolbar"
+            android:verticalSpacing="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</RelativeLayout>

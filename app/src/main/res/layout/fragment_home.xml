@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Fragment.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/nointernet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/call" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="NO Internet Connection"
+            android:textColor="@color/red"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/titl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <!-- <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/hader"/>
+ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="BRANDED POST"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/titl"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Your Business"
+            android:textColor="@color/colorAccent"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Premium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp">
+
+                <!--  <de.hdodenhof.circleimageview.CircleImageView
+                      android:id="@+id/u_logo"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+                      android:layout_gravity="center"
+                      android:src="@drawable/usere"
+                      android:tint="#ffffff"
+                      app:civ_border_color="#ffffff"
+                      app:civ_border_width="1dp" />-->
+                <ImageView
+                    android:id="@+id/u_logo"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/newlogo"
+                    android:visibility="gone" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pgon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/blue"
+                    app:cardCornerRadius="@dimen/_3sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:drawableRight="@drawable/arrowdown"
+                        android:drawableTint="#ffffff"
+                        android:padding="3dp"
+                        android:text="Premium"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_15sdp" />
+
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:drawableRight="@drawable/arrowdown"
+                        android:drawablePadding="5dp"
+                        android:drawableTint="#ffffff"
+                        android:padding="3dp"
+                        android:text="MY Business"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="10dp"
+                        android:background="#ffffff"
+                        android:visibility="gone" />
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/premium_logo"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/primuamicon"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/custom_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Custom"
+                    android:textColor="#ffffff" />
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tool"
+        android:background="#000000"
+        android:visibility="gone" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeallimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slide_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="15dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_alignParentTop="true" />
+
+                        <LinearLayout
+                            android:id="@+id/layout_dots"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                   android:id="@+id/tvUpcomming"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/slide_card"
+                   android:layout_marginStart="15dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginEnd="8dp"
+                   android:fontFamily="@font/font_bold"
+                   android:text="Upcoming Festival"
+                   android:textColor="@color/ColorBlack"
+                   android:textSize="16dp"
+                   android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/Ucoming"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/tvUpcomming"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginEnd="8dp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/logo_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_below="@id/Ucoming"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:elevation="@dimen/_5sdp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="8dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="CREATE YOUR LOGO"
+                        android:textColor="@color/black_de"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <View
+                    android:id="@+id/viewup"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/Ucoming"
+                    android:background="#ffffff"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/logo_create">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                       android:id="@+id/rvVertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginEnd="8dp"
+                       android:paddingBottom="80dp"
+                       android:scrollbars="none" />
+
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:id="@+id/alldatalodinge"
+                        style="@style/SpinKitView.Wave"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone"
+                        app:SpinKit_Color="#2196F3" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

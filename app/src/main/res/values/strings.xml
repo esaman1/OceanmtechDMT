@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Oceanmtech DMT</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">Oceanmtech DMT app to create and share social media posts fast and from anyway!</string>
+
+    <string name="slide_2_title">Grow Business</string>
+    <string name="slide_2_desc">Enter your Business detail and make attractive post with our Oceanmtech DMT!</string>
+
+    <string name="slide_3_title">Social Media</string>
+    <string name="slide_3_desc">Create and share classic Facebook, Instagram etc post templates!</string>
+
+    <string name="slide_4_title">Branding Post</string>
+    <string name="slide_4_desc">Business Branding With our Oceanmtech DMT!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="emailaddress">Let people know where you are located!!</string>
+    <string name="address">Let people know where you are located!!</string>
+    <string name="mobilenumber">How to contact you??</string>
+
+    <string name="permission_necessary" translatable="false">Permission necessary</string>
+    <string name="external_storage_and_camera_permission_are_necessary" translatable="false">External storage permission is necessary</string>
+    <string name="are_you_sure_to_download">Are You Sure Want to Logout</string>
+    <string name="are_you_sure_to_delete">Are You Sure Want to Delete</string>
+
+    <string name="default_notification_channel_id">100</string>
+    <string name="fcm_message">hiiiiiii</string>
+
+    <string name="help">Are you stuck anywhere ? Contact us via below</string>
+
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="rs"><strike>\u20B92900</strike></string>
+    <string name="rs199">\u20B9199/1 Month</string>
+    <string name="rs399">\u20B9399/3 Month</string>
+    <string name="rs699">\u20B9699/6 Month</string>
+    <string name="rs999">\u20B9999/9 Month</string>
+    <string name="rs1299">\u20B91299/1 Year</string>
+
+    <string name="rs108">\u20B9108/Month</string>
+    <string name="rs1600">Save \u20B91600</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_view_model">text_view_model</string>
+    <string name="watermark_image">newlogo.png</string>
+
+    <!--TEST_ID-->
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_id_interstitial">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="ad_id_banner">ca-app-pub-3940256099942544/63009781110</string>
+    <string name="NativeAd">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="enter_your_text">Enter your text</string>
+    <string name="titlefontstyle">Font Style</string>
+  <string name="title_activity_preview_custome_frame_view">PreviewCustomeFrameView</string>
+    <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label">First Fragment</string>
+  <string name="second_fragment_label">Second Fragment</string>
+  <string name="previous">Previous</string>
+
+  <string name="hello_first_fragment">Hello first fragment</string>
+  <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--LIVE_ID-->
+
+
+    <!--      <string name="app_id">ca-app-pub-4944024742392470~3118895461</string>-->
+    <!--      <string name="ad_id_interstitial">ca-app-pub-4944024742392470/7870505173</string>-->
+    <!--      <string name="ad_id_banner">ca-app-pub-4944024742392470/2314926169</string>-->
+    <!--      <string name="ad_id_nativeid">ca-app-pub-4944024742392470/1730179215</string>-->
+
+</resources>

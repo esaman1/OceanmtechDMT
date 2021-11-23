@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateLogo.Logo_B_NActivity">
+
+
+    <LinearLayout
+        android:id="@+id/et_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+       <EditText
+           android:id="@+id/ad_bussinessname"
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_50sdp"
+           android:layout_margin="@dimen/_10sdp"
+           android:hint="Enter Your Business Name"/>
+
+
+        <EditText
+            android:id="@+id/ad_ad_tegline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="Add a tagline"/>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_adbutton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="8dp"
+        android:layout_below="@id/et_button">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:padding="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black_de"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/cv_adbutton"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="#505050"/>
+
+  <androidx.recyclerview.widget.RecyclerView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/view"
+     android:layout_marginStart="@dimen/_10sdp"
+     android:layout_marginTop="@dimen/_10sdp"
+     android:layout_marginEnd="@dimen/_10sdp"
+     android:layout_marginBottom="@dimen/_10sdp" />
+
+</RelativeLayout>

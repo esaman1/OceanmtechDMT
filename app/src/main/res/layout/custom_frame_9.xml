@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivframebg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:orientation="vertical"
+        android:src="@drawable/frame_01" />
+
+    <ImageView
+        android:id="@+id/ivframelogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/_10sdp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginBottom="@dimen/_18sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivCall"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:src="@drawable/s1"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvframephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="sdssdsadsa"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_6sdp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivEmail"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/s2"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvframeemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="dasdasdsadsa"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_6sdp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical|center_horizontal|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivWebsite"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:src="@drawable/s3"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvframeweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="fsdfdfdsfsdf"
+                android:textColor="@color/ColorBlack"
+                android:textSize="@dimen/_6sdp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivLocation"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:src="@drawable/s4"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvframelocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="dsadsasasad"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_6sdp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!--<RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/_18sdp"
+        wi
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/ll_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_call"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvframelocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="dsadsasasad"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_6sdp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/ll_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvframephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tvframeemail"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="9033307771"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvframeemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="Jaymakwana@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>-->
+</FrameLayout>

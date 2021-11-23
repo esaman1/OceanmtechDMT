@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#081a2a"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="0.9"
+                        android:orientation="vertical">
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1.2"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="bottom|center"
+                android:orientation="vertical"
+                tools:targetApi="lollipop">
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/enhancement_options_recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:isScrollContainer="false"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/app_name"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/ad111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#081a2a"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/adborder">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advertise here"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:layout_centerInParent="true"/>
+
+            <LinearLayout
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

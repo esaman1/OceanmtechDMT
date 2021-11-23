@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197443288737",
+    "project_id": "oceanmtech-dmt",
+    "storage_bucket": "oceanmtech-dmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197443288737:android:df777fafae59f6b11abae0",
+        "android_client_info": {
+          "package_name": "com.oceanmtech.dmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197443288737-p0540uvldic8rggieljcb2fdno0mg2p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyopUO5Oqj4AUANpAzbC_BHFLcb8gHJ7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197443288737-p0540uvldic8rggieljcb2fdno0mg2p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

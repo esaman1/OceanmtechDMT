@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_bg"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/login_img" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="May I ask your phone number ?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:visibility="visible"
+                app:ccp_defaultNameCode="IN"
+                app:ccp_hideNameCode="true"
+                app:ccp_showFlag="false"
+                app:ccp_textSize="@dimen/_20sdp" />
+
+
+            <EditText
+                android:id="@+id/editTextMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:drawableTint="@color/colorAccent"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center"
+                android:hint="Your Phone Number"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_number"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/font_bold"
+            android:gravity="center"
+            android:text="We will send you a One time SMS Message\n carrier rates may apply"
+            android:textColor="#A5A5A5" />
+
+        <ImageView
+           android:id="@+id/buttonContinue"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="1dp"
+           android:adjustViewBounds="true"
+           android:src="@drawable/btn_next" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/rect_bottom_23dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/font_bold"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:padding="12dp"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
